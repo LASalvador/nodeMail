@@ -6,7 +6,7 @@ var transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth:{
-        user: 'lucas@superclient.com.br',
+        user: '',
         pass: ''
     }
 });
@@ -14,8 +14,8 @@ var transporter = nodemailer.createTransport({
 console.log('Email Configurado');
 
 var mailOptions = {
-    from: 'lucas@superclient.com.br',
-    to: 'lucas@superclient.com.br',
+    from: '',
+    to: '',
     subject: 'teste',
     text: 'very easy',
 };
