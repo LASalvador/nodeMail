@@ -9,6 +9,6 @@
   "author": "Lucas Salvador",
   "license": "ISC",
   "dependencies": {
-    "nodemailer": "^6.1.1"
+    "nodemailer": "^6.4.16"
   }
 }
